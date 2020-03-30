@@ -1,0 +1,56 @@
+/* Cards */
+.card-bg-color {
+    background-color: none;
+}
+
+.new-card-style {
+    margin: 15px 30px 30px 15px; 
+    text-align: center;
+}
+
+.new-card-header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+    text-align: center;
+}
+
+.btn-color {
+    background-color: #D943C8;
+    color: white;
+}
+
+
+/* Recent */
+.re-text-black {
+    color: black;
+    font-weight: bold;
+}
+
+#recent {
+    margin-left: 17px; 
+    text-align: center; 
+    margin-top: 30px; 
+    color:black; 
+    border-left-color: #30AECF; 
+    border-left-style: solid;
+}
+
+
+/* For Phones */
+@media screen and (max-width: 576px) {
+    #recent {
+        text-align: left;
+        border-left-color: none; 
+        border-left-style: none;
+        border-bottom-color: #30AECF; 
+        border-bottom-style: solid;
+    }
+
+    #recent_post {
+        padding-left: -20px;
+    }
+
+    #contact {
+        padding-right: -10px;
+    }
+}
